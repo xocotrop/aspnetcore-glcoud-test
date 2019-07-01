@@ -1,0 +1,16 @@
+docker build -t igorsms/aspnet-mssql:tag
+
+docker push igorsms/aspnet-mssql:tag
+docker pull igorsms/aspnet-mssql:tag
+
+docker run -d igorsms/aspnet-mssql
+
+docker stop igorsms/aspnet-mssql
+docker rm igorsms/aspnet-mssql
+
+docker service
+
+docker ps
+
+docker ps -a
+
