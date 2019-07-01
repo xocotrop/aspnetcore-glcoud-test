@@ -52,7 +52,7 @@ namespace Gcloud.Api
 
             UpdateDatabase(app);
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
             app.UseMvc();
         }
 
